@@ -1,3 +1,9 @@
+"""
+Time complexity is O(N^2)
+Space complexity is O(1)
+"""
+
+
 class SelectionSort:
 
     def __init__(self, array):
@@ -8,7 +14,7 @@ class SelectionSort:
         self.comparisons = 0
 
     def sort(self):
-        for i in range(self.size-1):
+        for i in range(self.size - 1):
             i_min = i
             self.passes += 1
             for j in range(i + 1, self.size):
