@@ -24,6 +24,7 @@ class SelectionSort:
             if i != i_min:
                 (self.array[i], self.array[i_min]) = (self.array[i_min], self.array[i])
                 self.swaps += 1
+        return self.array
 
     def displayResult(self):
         print("Sorted list: " + str(self.array), sep="\n")

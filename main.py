@@ -3,6 +3,6 @@ from selectionSort import SelectionSort
 from BubbleSort import BubbleSort
 from inersionSort import insertionSort
 
-list1 = [1, 8, 4,23,0,2,3,10,9,11]
+list1 = [10, 9, 8, 7, 2]
 
-sort = MergeSort(list1)
+sort = MergeSort(list1, 3)
