@@ -13,6 +13,8 @@ class insertionSort:
         self.passes = 0
         self.swaps = 0
         self.comparisons = 0
+        self.sort()
+        self.displayResult()
 
     def sort(self):
         for i in range(1, self.size):
